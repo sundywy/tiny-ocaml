@@ -1,0 +1,11 @@
+(executable
+ (name hello)
+ (modules hello)
+ (libraries cmdliner))
+
+(executable
+ (name crowsnest)
+ (modules crowsnest)
+ (libraries cmdliner))
+
+

@@ -4,7 +4,7 @@
 import os
 from subprocess import getstatusoutput, getoutput
 
-prg = './hello.exe'
+prg = '../../../_build/default/src/hello.exe'
 
 
 # --------------------------------------------------

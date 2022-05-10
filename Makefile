@@ -10,6 +10,7 @@ clean:
 	dune clean
 
 hello:
-	dune build bin/hello.exe
-	chmod +w _build/default/bin/hello.exe
-	cp _build/default/bin/hello.exe test/scripts/01_hello
+	dune build src/hello.exe
+
+ crowsnest:
+	dune build src/crowsnest.exe

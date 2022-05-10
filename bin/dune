@@ -1,4 +1,0 @@
-(executable
- (public_name tiny)
- (name hello)
- (libraries cmdliner))

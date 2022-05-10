@@ -1,6 +1,10 @@
 open Cmdliner
 
+(* implementation *)
+
 let hello name = print_endline ("Hello, " ^ name ^ "!")
+
+(* command line interface *)
 
 let nom =
   let doc = "Name to greet" in
