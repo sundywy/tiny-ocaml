@@ -8,4 +8,8 @@
  (modules crowsnest)
  (libraries cmdliner))
 
+(executable
+ (name picnic)
+ (modules picnic)
+ (libraries cmdliner))
 
